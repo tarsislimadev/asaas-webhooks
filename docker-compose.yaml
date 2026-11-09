@@ -1,3 +1,5 @@
 services:
   webhooks:
     build: .
+    volumes:
+      - .:/app
